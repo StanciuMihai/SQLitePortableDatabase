@@ -24,7 +24,7 @@ namespace DemoLibrary
         {
             using (IDbConnection cnn = new SQLiteConnection(LoadConnectionString()))
             {
-
+                cnn.Execute("insert into Person (FirstName, LastName) values (@FirstName, @LastName)", person);
             }
 
         }
