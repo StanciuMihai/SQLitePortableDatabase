@@ -28,6 +28,14 @@ namespace DemoLibrary
             }
 
         }
+        public static void DeletePerson(PersonModel person)
+        {
+            using (IDbConnection cnn = new SQLiteConnection(LoadConnectionString()))
+            {
+                cnn.Execute("delete from Person where FirstName=@FirstName and LastName=@LastName", person);
+            }
+
+        }
 
         private static string LoadConnectionString(string id = "Default")
         {

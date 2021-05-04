@@ -116,7 +116,7 @@
             this.refreshListButton.Name = "refreshListButton";
             this.refreshListButton.Size = new System.Drawing.Size(234, 69);
             this.refreshListButton.TabIndex = 8;
-            this.refreshListButton.Text = "Refresh List";
+            this.refreshListButton.Text = "Delete Person";
             this.refreshListButton.UseVisualStyleBackColor = true;
             this.refreshListButton.Click += new System.EventHandler(this.refreshListButton_Click);
             // 

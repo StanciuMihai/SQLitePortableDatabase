@@ -39,7 +39,19 @@ namespace WinFormUI
 
         private void refreshListButton_Click(object sender, EventArgs e)
         {
+
+            PersonModel p = new PersonModel();
+
+            p.FirstName = firstNameText.Text;
+            p.LastName = lastNameText.Text;
+
+            // TODO - do something with this item
+            SqliteDataAccess.DeletePerson(p);
+
+            firstNameText.Text = "";
+            lastNameText.Text = "";
             LoadPeopleList();
+
         }
 
         private void addPersonButton_Click(object sender, EventArgs e)
@@ -54,6 +66,7 @@ namespace WinFormUI
 
             firstNameText.Text = "";
             lastNameText.Text = "";
+            LoadPeopleList();
         }
     }
 }
