@@ -75,21 +75,21 @@
             // 
             this.addPersonHeader.AutoSize = true;
             this.addPersonHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addPersonHeader.Location = new System.Drawing.Point(32, 42);
+            this.addPersonHeader.Location = new System.Drawing.Point(23, 42);
             this.addPersonHeader.Name = "addPersonHeader";
-            this.addPersonHeader.Size = new System.Drawing.Size(207, 39);
+            this.addPersonHeader.Size = new System.Drawing.Size(324, 39);
             this.addPersonHeader.TabIndex = 4;
-            this.addPersonHeader.Text = "Add Person";
+            this.addPersonHeader.Text = "Add/Delete Person";
             // 
             // listPeopleHeader
             // 
             this.listPeopleHeader.AutoSize = true;
             this.listPeopleHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listPeopleHeader.Location = new System.Drawing.Point(380, 42);
+            this.listPeopleHeader.Location = new System.Drawing.Point(431, 42);
             this.listPeopleHeader.Name = "listPeopleHeader";
-            this.listPeopleHeader.Size = new System.Drawing.Size(199, 39);
+            this.listPeopleHeader.Size = new System.Drawing.Size(240, 39);
             this.listPeopleHeader.TabIndex = 5;
-            this.listPeopleHeader.Text = "List People";
+            this.listPeopleHeader.Text = "List of People";
             // 
             // listPeopleListBox
             // 
