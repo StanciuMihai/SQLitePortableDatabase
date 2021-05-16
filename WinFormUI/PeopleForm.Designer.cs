@@ -83,6 +83,7 @@
             // 
             // listPeopleHeader
             // 
+            this.listPeopleHeader.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.listPeopleHeader.AutoSize = true;
             this.listPeopleHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listPeopleHeader.Location = new System.Drawing.Point(431, 42);
@@ -93,6 +94,9 @@
             // 
             // listPeopleListBox
             // 
+            this.listPeopleListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listPeopleListBox.FormattingEnabled = true;
             this.listPeopleListBox.ItemHeight = 29;
             this.listPeopleListBox.Location = new System.Drawing.Point(388, 107);
@@ -102,6 +106,7 @@
             // 
             // addPersonButton
             // 
+            this.addPersonButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.addPersonButton.Location = new System.Drawing.Point(52, 300);
             this.addPersonButton.Name = "addPersonButton";
             this.addPersonButton.Size = new System.Drawing.Size(234, 69);
@@ -112,6 +117,7 @@
             // 
             // refreshListButton
             // 
+            this.refreshListButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.refreshListButton.Location = new System.Drawing.Point(52, 387);
             this.refreshListButton.Name = "refreshListButton";
             this.refreshListButton.Size = new System.Drawing.Size(234, 69);
@@ -136,6 +142,7 @@
             this.Controls.Add(this.firstNameLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
+            this.MinimumSize = new System.Drawing.Size(770, 531);
             this.Name = "PeopleForm";
             this.Text = "SQLite Portable Database";
             this.ResumeLayout(false);
