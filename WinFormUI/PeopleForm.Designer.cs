@@ -59,6 +59,7 @@
             // 
             // firstNameText
             // 
+            this.firstNameText.BackColor = System.Drawing.Color.Teal;
             this.firstNameText.Location = new System.Drawing.Point(52, 137);
             this.firstNameText.Name = "firstNameText";
             this.firstNameText.Size = new System.Drawing.Size(234, 35);
@@ -66,6 +67,7 @@
             // 
             // lastNameText
             // 
+            this.lastNameText.BackColor = System.Drawing.Color.Teal;
             this.lastNameText.Location = new System.Drawing.Point(52, 226);
             this.lastNameText.Name = "lastNameText";
             this.lastNameText.Size = new System.Drawing.Size(234, 35);
@@ -97,6 +99,7 @@
             this.listPeopleListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.listPeopleListBox.BackColor = System.Drawing.Color.Teal;
             this.listPeopleListBox.FormattingEnabled = true;
             this.listPeopleListBox.ItemHeight = 29;
             this.listPeopleListBox.Location = new System.Drawing.Point(388, 107);
@@ -107,29 +110,36 @@
             // addPersonButton
             // 
             this.addPersonButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.addPersonButton.BackColor = System.Drawing.Color.PaleGreen;
+            this.addPersonButton.FlatAppearance.BorderSize = 0;
+            this.addPersonButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addPersonButton.Location = new System.Drawing.Point(52, 300);
             this.addPersonButton.Name = "addPersonButton";
             this.addPersonButton.Size = new System.Drawing.Size(234, 69);
             this.addPersonButton.TabIndex = 7;
             this.addPersonButton.Text = "Add Person";
-            this.addPersonButton.UseVisualStyleBackColor = true;
+            this.addPersonButton.UseVisualStyleBackColor = false;
             this.addPersonButton.Click += new System.EventHandler(this.addPersonButton_Click);
             // 
             // refreshListButton
             // 
             this.refreshListButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.refreshListButton.BackColor = System.Drawing.Color.HotPink;
+            this.refreshListButton.FlatAppearance.BorderSize = 0;
+            this.refreshListButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.refreshListButton.Location = new System.Drawing.Point(52, 387);
             this.refreshListButton.Name = "refreshListButton";
             this.refreshListButton.Size = new System.Drawing.Size(234, 69);
             this.refreshListButton.TabIndex = 8;
             this.refreshListButton.Text = "Delete Person";
-            this.refreshListButton.UseVisualStyleBackColor = true;
+            this.refreshListButton.UseVisualStyleBackColor = false;
             this.refreshListButton.Click += new System.EventHandler(this.refreshListButton_Click);
             // 
             // PeopleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(754, 492);
             this.Controls.Add(this.refreshListButton);
             this.Controls.Add(this.addPersonButton);
