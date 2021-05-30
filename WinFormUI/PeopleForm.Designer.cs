@@ -166,6 +166,7 @@
             this.Controls.Add(this.lastNameLabel);
             this.Controls.Add(this.firstNameLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
             this.MinimumSize = new System.Drawing.Size(770, 531);
             this.Name = "PeopleForm";
